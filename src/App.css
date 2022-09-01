@@ -3,3 +3,43 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.TodoItem{
+  width: inherit;
+  height: 100px;
+  padding: 15px 10px;
+  border: 1px solid pink;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.TodoList{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.addTodo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.addTodoButton{
+  background: transparent;
+  border: 1px solid pink;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.addTodoInput{
+  width: 80%;
+  font-size: 18px;
+  border: 1px solid pink;
+  border-radius: 10px;
+  padding-left: 10px;
+}
